@@ -1,7 +1,7 @@
 const searchButton = document.getElementById('search-button')
 const searchBar = document.getElementById('searchBar')
 const newsContainer = document.querySelector('.news-container')
-const apiKey = 'b4faf2ced1a444b59094dd386c929604'
+const apiKey = ''
 
 async function fetchNews(keyword) {
     let url = `https://newsapi.org/v2/everything?q=${keyword}&apiKey=${apiKey}`;
